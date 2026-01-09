@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
 
-    if (hamburger) {
+    if (hamburger && navLinks) {
         hamburger.addEventListener('click', function() {
             hamburger.classList.toggle('active');
             navLinks.classList.toggle('active');
@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('.nav-links a');
     navItems.forEach(item => {
         item.addEventListener('click', function() {
-            if (navLinks.classList.contains('active')) {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            if (hamburger && navLinks && navLinks.classList.contains('active')) {
                 hamburger.classList.remove('active');
                 navLinks.classList.remove('active');
             }
@@ -70,6 +72,13 @@ document.addEventListener('DOMContentLoaded', function() {
         section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(section);
     });
+
+    // Update copyright year dynamically
+    const footerText = document.querySelector('.footer p');
+    if (footerText) {
+        const currentYear = new Date().getFullYear();
+        footerText.textContent = `© ${currentYear} Sardheesh. All rights reserved.`;
+    }
 
     // Console message
     console.log('%c Welcome to my portfolio! ', 'background: #667eea; color: white; font-size: 20px; padding: 10px;');
