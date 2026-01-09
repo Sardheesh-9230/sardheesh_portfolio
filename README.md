@@ -99,15 +99,18 @@ A stunning, professional 3D animated portfolio showcasing mobile app development
 
 ## 🚀 Deployment
 
-The portfolio is ready for deployment on any modern hosting platform:
+### GitHub Pages (Live Now!)
+Visit: https://sardheesh-9230.github.io/sardheesh_portfolio
 
-### Vercel (Recommended)
+The portfolio automatically deploys to GitHub Pages via GitHub Actions on every push to main.
+
+### Vercel (Alternative)
 ```bash
 npm i -g vercel
 vercel --prod
 ```
 
-### Netlify
+### Netlify (Alternative)
 ```bash
 npm run build
 # Upload dist folder to Netlify
@@ -143,6 +146,6 @@ Update personal information in the components:
 
 ---
 
-**Portfolio URL**: `http://localhost:5173`
+**Portfolio URL**: https://sardheesh-9230.github.io/sardheesh_portfolio
 
 **Built with ❤️ using React, Three.js, and modern web technologies**
