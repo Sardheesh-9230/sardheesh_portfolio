@@ -71,18 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(section);
     });
 
-    // Add animation to skill cards
-    const skillCards = document.querySelectorAll('.skill-card');
-    skillCards.forEach((card, index) => {
-        card.style.animationDelay = `${index * 0.1}s`;
-    });
-
-    // Add animation to project cards
-    const projectCards = document.querySelectorAll('.project-card');
-    projectCards.forEach((card, index) => {
-        card.style.animationDelay = `${index * 0.1}s`;
-    });
-
     // Console message
     console.log('%c Welcome to my portfolio! ', 'background: #667eea; color: white; font-size: 20px; padding: 10px;');
 });
