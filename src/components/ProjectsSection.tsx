@@ -50,7 +50,7 @@ const ProjectsSection: React.FC = () => {
       title: "Digital Health Record Management System (DHRMS)",
       category: "Healthcare & Mobile",
       description: "🏆 SIH 2025 Project - Comprehensive healthcare management system for migrant workers with role-based dashboards, proximity alerts, geolocation services, and telemedicine features. Built with Flutter for cross-platform deployment.",
-      image: "/images/projects/dhrms-project.png",
+      image: "images/projects/dhrms-project.png",
       technologies: ["Flutter", "Dart", "Firebase", "Geolocation APIs", "Provider State Management", "Healthcare APIs", "Material Design"],
       github: "https://github.com/Sardheesh-9230/dhrms_sih2025",
       demo: "https://github.com/Sardheesh-9230/dhrms_sih2025",
@@ -62,7 +62,7 @@ const ProjectsSection: React.FC = () => {
       title: "DocuBot - RAG Chatbot with Groq",
       category: "AI & Chatbots",
       description: "Modern RAG chatbot with ChatGPT-like smooth typewriter interface. Upload documents, ask questions, get intelligent AI responses with beautiful animations. Features FAISS vector search, LangChain, and Groq LLM integration.",
-      image: "/images/projects/docubot-project.png",
+      image: "images/projects/docubot-project.png",
       technologies: ["Python", "Flask", "FAISS", "LangChain", "Groq API", "Sentence Transformers", "Bootstrap", "JavaScript"],
       github: "https://github.com/Sardheesh-9230/Rag-based_chatbot_using_groq",
       demo: "https://github.com/Sardheesh-9230/Rag-based_chatbot_using_groq",
@@ -74,7 +74,7 @@ const ProjectsSection: React.FC = () => {
       title: "LearnAid - Educational Management Platform",
       category: "Educational Tech",
       description: "AI-powered educational platform with admin-centric architecture for college institutions. Features department management, AI MCQ generation, performance analytics, and comprehensive course management with modern React architecture.",
-      image: "/images/projects/learnaid-project.png",
+      image: "images/projects/learnaid-project.png",
       technologies: ["TypeScript", "Next.js 14", "React 18", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "AI Integration"],
       github: "https://github.com/Sardheesh-9230/LEARNAID-123",
       demo: "https://github.com/Sardheesh-9230/LEARNAID-123",
@@ -86,7 +86,7 @@ const ProjectsSection: React.FC = () => {
       title: "Healing Metrics Dashboard",
       category: "Health & Analytics",
       description: "Health metrics dashboard for tracking and analyzing wellness data. Features responsive design and intuitive data visualization for healthcare monitoring with real-time charts and health insights.",
-      image: "/images/projects/healing-metrics-project.png",
+      image: "images/projects/healing-metrics-project.png",
       technologies: ["HTML5", "CSS3", "JavaScript", "Chart.js", "Bootstrap", "Health APIs", "Responsive Design"],
       github: "https://github.com/Sardheesh-9230/Healing_metrics",
       demo: "https://github.com/Sardheesh-9230/Healing_metrics",
@@ -98,7 +98,7 @@ const ProjectsSection: React.FC = () => {
       title: "FLAMES Relationship Predictor",
       category: "Fun Projects",
       description: "Popular relationship prediction game implemented in Python. A fun algorithmic approach to the classic FLAMES game with clean code structure and interactive user interface for entertainment.",
-      image: "/images/projects/flames-project.png",
+      image: "images/projects/flames-project.png",
       technologies: ["Python", "Tkinter", "Algorithm Design", "GUI Development", "Object-Oriented Programming"],
       github: "https://github.com/Sardheesh-9230/flames-project-using-python",
       demo: "https://github.com/Sardheesh-9230/flames-project-using-python",
@@ -110,7 +110,7 @@ const ProjectsSection: React.FC = () => {
       title: "College Event Management System",
       category: "Educational Tech",
       description: "Comprehensive DBMS project for managing college events, registrations, and administrative tasks. Features complete database design, web interface, and event lifecycle management.",
-      image: "/images/projects/event-management-project.png",
+      image: "images/projects/event-management-project.png",
       technologies: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "Bootstrap", "DBMS Design"],
       github: "https://github.com/Sardheesh-9230/COLLEGE-EVENT-MANAGEMENT-SYSTEM",
       demo: "https://github.com/Sardheesh-9230/COLLEGE-EVENT-MANAGEMENT-SYSTEM",
@@ -122,7 +122,7 @@ const ProjectsSection: React.FC = () => {
       title: "Smart Retail Management",
       category: "Business Solutions",
       description: "Retail management system with inventory tracking, sales analytics, and customer management features. Designed for modern retail operations with comprehensive business insights.",
-      image: "/images/projects/retail-management-project.png",
+      image: "images/projects/retail-management-project.png",
       technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Chart.js", "Local Storage", "Responsive Design"],
       github: "https://github.com/Sardheesh-9230/smart_retail",
       demo: "https://github.com/Sardheesh-9230/smart_retail",
@@ -184,8 +184,8 @@ const ProjectsSection: React.FC = () => {
                 key={category}
                 onClick={() => setSelectedCategory(category)}
                 className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 ${selectedCategory === category
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25 scale-105'
-                    : 'text-gray-400 hover:text-white hover:bg-white/10'
+                  ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25 scale-105'
+                  : 'text-gray-400 hover:text-white hover:bg-white/10'
                   }`}
               >
                 {category}

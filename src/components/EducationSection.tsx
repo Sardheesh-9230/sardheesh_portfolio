@@ -214,7 +214,7 @@ const EducationSection: React.FC = () => {
                       {edu.degree.includes("Bachelor") && (
                         <div className="w-20 h-20 flex-shrink-0">
                           <img
-                            src="/images/mkce.jpg"
+                            src="images/mkce.jpg"
                             alt="College Logo"
                             className="w-full h-full object-cover rounded-full bg-gradient-to-br from-white to-gray-100 p-1 border-2 border-blue-200 group-hover:border-blue-400 shadow-lg transition-all duration-300 group-hover:scale-105"
                           />
@@ -223,7 +223,7 @@ const EducationSection: React.FC = () => {
                       {edu.degree.includes("Higher Secondary") && (
                         <div className="w-20 h-20 flex-shrink-0">
                           <img
-                            src="/images/skv.jpeg"
+                            src="images/skv.jpeg"
                             alt="School Logo"
                             className="w-full h-full object-cover rounded-full bg-gradient-to-br from-white to-gray-100 p-1 border-2 border-green-200 group-hover:border-green-400 shadow-lg transition-all duration-300 group-hover:scale-105"
                           />
