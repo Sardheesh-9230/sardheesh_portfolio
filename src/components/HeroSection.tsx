@@ -239,7 +239,7 @@ const HeroSection: React.FC = () => {
           <div className="relative w-80 h-96 md:w-96 md:h-[500px] overflow-hidden rounded-2xl shadow-2xl">
 
             <img
-              src="images/profile2.png"
+              src="images/profile.png"
               alt="Sardheesh"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               onError={(e) => {
